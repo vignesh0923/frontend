@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+    box-shadow: 0 1px 3px -2px black;
+  }
+  
+  
+  
+  .navbar hr {
+    border: none;
+    width: 80%;
+    border-radius: 10px;
+    height: 3px;
+    background: #ff4141;
+  }
+  
+  .menus {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20%;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  
+  .menus p {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .menus p:hover{
+    color: #f1bd33;
+    
+  }
+  
+  .bookbtn {
+    background: #f1bd33;
+    border: none;
+    border-radius: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    margin-right: 50px;
+    padding: 10px 20px 10px 20px;
+  }

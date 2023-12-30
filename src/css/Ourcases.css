@@ -1,0 +1,62 @@
+.ourcases {
+  text-align: center;
+  margin-top: 12vw;
+}
+
+.ourcases span,
+h2 {
+  padding-bottom: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 0px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+}
+
+.column img {
+  position: relative;
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 20px;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.column img:hover {
+  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+.text-overlay {
+  position: relative;
+  top: -70px;
+  z-index: 1;
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.text-overlay span {
+  font-weight: 900;
+  color: black;
+}
